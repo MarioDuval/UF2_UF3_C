@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mario/CLionProjects/UF2_UF3-C/funciones.h
+
+C:/Users/mario/CLionProjects/UF2_UF3-C/functions.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+unistd.h
+-
+funciones.h
+C:/Users/mario/CLionProjects/UF2_UF3-C/funciones.h
+
