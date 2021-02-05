@@ -5,20 +5,21 @@
 #include "funciones.h"
 
 void main () {
-    char ans;
+    char ans; //variable on guardem si vol introduir mes registres
 
-    head();
+    head(); //crida a la funció per afegir la capçalera
 
     do{
-        data();
+        data(); //crida a la funció per introduir les dades per teclat
 
-        date();
+        date(); //crida a la funció per la data i l'hora
 
-        insert();
+        insert(); //crida a la funció per afegir el contingut introduit per teclat al fitxer
 
-        repeat();
+        repeat(); //crida a la funció per consultar si vol tornar a afegir un registre nou
 
-        ans = getchar();
+        ans = getchar(); //guardem el caracter que ha introduit en la variable
         fflush(stdin);
-    } while (ans == 'y');
+    } while (ans == 'y');  //si l'usuari introdueix una "y" es torna a repetir, si introdueix "n" finalitza
+
 }
